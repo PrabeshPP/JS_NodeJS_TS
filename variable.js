@@ -1,5 +1,4 @@
- const interestRate=0.3;
- console.log(interestRate);
+ 
  
 /*
 Primitive Type
@@ -10,7 +9,7 @@ Primitive Type
 -null
 */
 
-let name="Prabesh"; //String literal
+
 let number=300; //Number literal
 let istrue=false; //Boolean Literal
 let firstName; //undefined literal
@@ -22,5 +21,15 @@ Object,
 Arrays,
 Functions
 */
+let person={
+    name:"Mosh",
+    age:30
+
+};
+person.name="IronMan";
+//Bracket notation
+let selection='name';
+person[selection]="Marry";
+console.log(person);
 
 
