@@ -14,7 +14,13 @@ fs.appendFile('read.text',"\nThis is a second line",(err)=>
 
 
 // reading the data from an async file
-fs.readFile('read.text','utf8',(err,data)=>{
+fs.readFile('read.text','utf-8',(err,data)=>{
     console.log(data);
 });
 console.log("Hellow world")
+
+//renaming the file name
+fs.rename('read.text','rename.text',(err)=>{
+    console.log("reanmed");
+});
+
