@@ -22,3 +22,8 @@ console.log(name22);
 // the variable un has not any data assigned
 var un;
 console.log(un);
+
+//checking whether the give number is number or not
+console.log(isNaN(x));
+console.log(isNaN(name2));
+// returns the boolean value
