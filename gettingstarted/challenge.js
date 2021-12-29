@@ -27,3 +27,7 @@ console.log(un);
 console.log(isNaN(x));
 console.log(isNaN(name2));
 // returns the boolean value
+
+console.log(1!=2);
+// console.log(1===2);
+
