@@ -43,4 +43,9 @@ console.log(num1<num2 && num2!=num1);
 console.log("Yo,I am OR Operator");
 console.log(num1<num2 ||nu1>=num2); //it should return true,since one expression it true
 
+//Logical NOT Operator
+// it willn return oposite of the expression
+console.log("Yo,I am a not operator");
+console.log(!(num1<num2 ||nu1>=num2));
+
 
