@@ -4,6 +4,7 @@ console.log(++x); //prefix increment
 console.log(x++); //postfix increment
 
 //comparison operators
+// >,<,>=,<=,==,!=
 
 let num1=22;
 let num3=44;
