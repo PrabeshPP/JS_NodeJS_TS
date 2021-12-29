@@ -31,3 +31,16 @@ console.log(num1==num2);
 
 console.log(num1!=num2);
 
+//Logical Operator 
+ 
+// And Operator
+// inorder to be valid in && operator ,both expression should return true
+console.log("Yo,I am AND operator");
+console.log(num1<num2 && num2!=num1);
+
+//OR Operator
+// inorder to be valid in || operator,at least one expression should return true
+console.log("Yo,I am OR Operator");
+console.log(num1<num2 ||nu1>=num2); //it should return true,since one expression it true
+
+
