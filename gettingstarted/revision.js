@@ -7,10 +7,27 @@ console.log(x++); //postfix increment
 // >,<,>=,<=,==,!=
 
 let num1=22;
-let num3=44;
-if(num1>=num3){
-    console.log("Number 1 is greater than number 2");
-}else{
-    console.log("Number 2 is greater than number 1");
-}
+let num2=44;
+//less than operator
+console.log(num1<num2);
+
+//greater than operator
+
+console.log(num2>num1);
+
+// greater than or equal to operator
+
+console.log(num2>=num1);
+
+//less than or equal to
+
+console.log(num1<=num2);
+
+//equal to operator
+
+console.log(num1==num2);
+
+//not equal to operator
+
+console.log(num1!=num2);
 
