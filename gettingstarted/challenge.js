@@ -13,3 +13,12 @@ if(typeof(name1)=="string"){
 let name2="Prabesh";
 let lastname='Bista';
 console.log(name2+lastname);
+
+// null vs undefined
+var name22=null; 
+console.log(name22);
+
+//undefined
+// the variable un has not any data assigned
+var un;
+console.log(un);
