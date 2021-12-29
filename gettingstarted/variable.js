@@ -32,4 +32,4 @@ let selection='name';
 person[selection]="Marry";
 console.log(person);
 
-
+// Note* triple === would also check the type
