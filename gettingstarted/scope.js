@@ -25,3 +25,11 @@ function defaultParameters(a=10,b=20){
 
 console.log(defaultParameters());// if we don't pass arguments ,default parameters would be used
 
+//Fat Arrow Function
+const fatArrowfunct=()=>{
+    let x=110;
+    let y=20;
+    return x*y;
+}
+
+console.log(`This is Fat Arrow function:${fatArrowfunct()}`);
