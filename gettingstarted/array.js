@@ -17,3 +17,4 @@ console.log(arrayIndex.slice(1,4));
 //Splice delete the for a given index from to;
 console.log(arrayIndex.splice(1,3));
 console.log(arrayIndex);
+
