@@ -1,10 +1,10 @@
-// let arr=[25,36,49,64,81];
-// let newArr=arr.map((currentElem,index,arr)=>{
-//    return Math.sqrt(currentElem);
+let arr=[25,36,49,64,81];
+let newArr=arr.map((currentElem,index,arr)=>{
+   return Math.sqrt(currentElem);
 
-// });
+});
 
-// console.log(newArr);
+console.log(newArr);
 
 //Chain Method in Map
 
