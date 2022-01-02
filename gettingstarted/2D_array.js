@@ -6,5 +6,7 @@ const arr=[
 ]
 //flattening the array
 let flat_arr=arr.reduce((accumulator,currenElem)=>{
-    return  accumulator.concat()
+    return  accumulator.concat(currenElem);
 })
+
+console.log(flat_arr);
