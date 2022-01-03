@@ -89,4 +89,13 @@ let lname="Bista";
 
 console.log(fname.concat(" ",lname));
 
+var str1="             hello world             ";
+console.log(str1.trim());
+
+//Convert string to an array
+//Split Method()
+
+console.log(str.split(""));
+
+
 
