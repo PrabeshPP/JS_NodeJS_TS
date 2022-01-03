@@ -58,12 +58,35 @@ console.log(dummyText.substring(0,7));
 
 //Replacing the string
 let hero="I am Iron-Man";
-console.log(hero.replace("I","i"));
+console.log(hero.replace("Iron","iron"));
 
+//Extracring Strings Character
 
+let str="Hello World";
+console.log(str.charAt(4));
 
+//charCodeAt() Method
+console.log(str.charCodeAt(1));
 
+// Challenge
+// Returning the unicode of last character in string
 
+let len=str.length;
+console.log(len);
+let lastChar=str.charAt(len-1);
+console.log(lastChar);
+//The unicode of the last character is ....
+let uni_code=str.charCodeAt(lastChar);
+console.log(uni_code);
 
+// Property Access
+console.log(str[0]);
+console.log(str[4]);
+
+//Others Useful Method
+let fname="Prabesh";
+let lname="Bista";
+
+console.log(fname.concat(" ",lname));
 
 
