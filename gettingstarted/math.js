@@ -9,5 +9,12 @@ console.log(Math.ceil(5.555));
 console.log(Math.sqrt(169));
 //abs() method returns positive value.
 console.log(Math.abs(-299));
+// random() method
+
+console.log(Math.floor(Math.random()*1000));
+
+// Math.trunc() returns the integer part of a number only
+
+console.log(Math.trunc(99.1234));
 
 
