@@ -14,7 +14,6 @@ console.log(Math.abs(-299));
 console.log(Math.floor(Math.random()*1000));
 
 // Math.trunc() returns the integer part of a number only
-
-console.log(Math.trunc(99.1234));
+console.log(Math.trunc(99.8));
 
 
