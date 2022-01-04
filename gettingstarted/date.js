@@ -9,5 +9,12 @@
 // console.log(date.getDate());
 
 //Practice time
-console.log(new Date().toLocaleTimeString());
+// console.log(new Date().toLocaleTimeString());
+
+function hello(){
+    setInterval(()=>{
+        console.log(new Date().toLocaleTimeString());
+    },1000);
+};
+hello();
 
