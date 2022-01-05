@@ -7,13 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <button  onclick="changeContent()">Go back</button>
+    <button  onclick="changeContent()">H1 changed</button><br><br>
+    <button onclick="changePara()">ParagraphChanged</button>
+    <p class="para">I am prabesh bista with some root knowledge on mobile app development and webdevelopment</p>
     <h1 id="heading">I will change this text with the help of document object module</h1>
   
     <script >
       const changeContent=()=>{
-         document.getElementById("heading").style.color="blue";
+         const headingChange=document.getElementById("heading");
+         headingChange.innerHTML="Text has been changed ,and the text color is purple";
+         headingChange.style.color="purple";
+
+        
+
          
+      }
+
+      const changePara=()=>{
+        const paragraphChange=document.getElementsByClassName("para");
+         paragraphChange[0].innerHTML="The paragraph has been changed";
+         paragraphChange[0].style.color="crimson";
       }
     </script>
 </body>
