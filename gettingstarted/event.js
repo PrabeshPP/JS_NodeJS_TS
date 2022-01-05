@@ -13,5 +13,11 @@ thirdway[0].onclick=function(){
     alert("My name is prabesh bista");
 }
 
+
+
 //4th way of writing the  function
+const fourthWay=document.querySelector("#fourth");
+fourthWay.onclick=()=>{
+    alert("This is the fourt way of writing the function");
+}
 
