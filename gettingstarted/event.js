@@ -13,3 +13,5 @@ thirdway[0].onclick=function(){
     alert("My name is prabesh bista");
 }
 
+//4th way of writing the  function
+
