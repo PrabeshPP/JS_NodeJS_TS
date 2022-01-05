@@ -1,3 +1,38 @@
+
 .main{
     background-color: crimson;
+    position: relative;
+    height:350px;
+    width: 350px;
+}
+
+.child1{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left: 0;
+}
+.child2{
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    position:absolute;
+    right: 0;
+    overflow: scroll;
+}
+.child3{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position:absolute;
+    bottom: 0;
+}
+.child4{
+    height: 50px;
+    width: 50px;
+    background-color: darkslategrey;
+    position:absolute;
+    bottom: 0;
+    right: 0;
 }

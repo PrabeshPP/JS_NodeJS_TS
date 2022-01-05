@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hellow world</h1>
-    <script src="index.js">
+    <button  onclick="changeContent()">Go back</button>
+    <h1 id="heading">I will change this text with the help of document object module</h1>
+  
+    <script >
+      const changeContent=()=>{
+         document.getElementById("heading").style.color="blue";
+         
+      }
     </script>
 </body>
 </html>
