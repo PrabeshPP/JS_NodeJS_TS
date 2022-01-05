@@ -7,7 +7,7 @@ function Alert(){
     // also I am using escape characters \"you data"\
     alert("This is the most \"easiest\" way of calling the function.");
 }
-
+// another way of writing the function
 const thirdway=document.getElementsByClassName("third");
 thirdway[0].onclick=function(){
     alert("My name is prabesh bista");
