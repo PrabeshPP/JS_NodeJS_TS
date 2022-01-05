@@ -14,7 +14,7 @@
   
     <script >
       const changeContent=()=>{
-         const headingChange=document.getElementById("heading");
+         const headingChange=document.querySelector("#heading");
          headingChange.innerHTML="Text has been changed ,and the text color is purple";
          headingChange.style.color="purple";
 
@@ -24,9 +24,11 @@
       }
 
       const changePara=()=>{
-        const paragraphChange=document.getElementsByClassName("para");
-         paragraphChange[0].innerHTML="The paragraph has been changed";
-         paragraphChange[0].style.color="crimson";
+        //   querySelector use the first matching element
+        const paragraphChange=document.querySelector(".para");
+         paragraphChange.innerHTML="The paragraph has been changed";
+         paragraphChange.style.color="teal";
+        
       }
     </script>
 </body>
