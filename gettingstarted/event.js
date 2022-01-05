@@ -8,6 +8,8 @@ function Alert(){
     alert("This is the most \"easiest\" way of calling the function.");
 }
 
-function Print(){
-    print();
+const thirdway=document.getElementsByClassName("third");
+thirdway[0].onclick=function(){
+    alert("My name is prabesh bista");
 }
+
