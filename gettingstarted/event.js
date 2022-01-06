@@ -25,3 +25,28 @@ const fourthWay=document.querySelector("#fourth");
 fourthWay.addEventListener('click',()=>{
     alert("This is an Event Listener");
 })
+
+//Event Object
+//Event Object returns the event that has been fired
+
+const eventObj=document.getElementById("EventObj");
+eventObj.addEventListener('click',(event)=>{
+
+console.log(event);
+console.log(event.target);
+console.log(event.type);
+});
+
+
+//Mouse Event
+
+
+function mouseUp(){
+    document.getElementById('mouse').style.color="red";
+    
+}
+
+function mouseDown(){
+    document.getElementById('mouse').style.color="teal";
+   
+}
