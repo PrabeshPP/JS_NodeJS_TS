@@ -1,13 +1,18 @@
-const keyPress=document.getElementById('keys');
-function keypress(event){
-    return keyPress.innerHTML=`${event.key} ${event.code}`;
-}
 
-function keyUP(){
-    return keyPress.innerHTML="Key is Up";
-
-}
-function keyDown(){
-    return keyPress.innerHTML="Key is down";
-
+function selectElement(value){
+    const evnt=document.getElementById('result');
+    const input=document.getElementById('field');
+    if(value=="red"){
+        evnt.innerHTML=`you choosed a ${value} colors as your favourite color`;
+        evnt.style.color='red';
+    }else if(value=='blue'){
+        evnt.innerHTML=`you choosed a ${value} colors as your favourite color`;
+        evnt.style.color='blue';
+    }else{
+        evnt.innerHTML=`you choosed a ${value} colors as your favourite color`;
+        evnt.style.color='purple';
+    }
+  
+  
+    
 }

@@ -7,9 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This html file is for the keyboard event.</p>
-    <input type="text" class="effect-1" onkeypress="keypress(event)" onkeyup="keyUP()" onkeydown="keyDown()" >
-    <p id="keys"></p>
+    <label>Enter you Name:</label>
+    <input class="field"><br><br>
+    <label>Choose Your Favourite Color:
+   <select id="colors" name="Colors" onchange="selectElement(value)">
+       <option value="" >Select One</option>
+      <option value="red" id="red">red</option>
+      <option value="blue" id="blue">blue</option>
+      <option value="purple" id="purple">purple</option>
+   </select>
+   <div id="result"></div>
+</label>
     <script src="keyEvent.js"></script>
     
 </body>
