@@ -50,3 +50,17 @@ function mouseDown(){
     document.getElementById('mouse').style.color="teal";
    
 }
+
+const mEnter=document.getElementsByClassName("box");
+mEnter[0].addEventListener('mouseenter',()=>{
+    mEnter[0].style.backgroundColor="yellow";
+    console.log("mouse Enter bro")
+})
+
+mEnter[0].addEventListener('mouseleave',()=>{
+    mEnter[0].style.backgroundColor="purple";
+    console.log("mouse leave bro");
+})
+
+//KeyBoard Events in JavaScript
+
