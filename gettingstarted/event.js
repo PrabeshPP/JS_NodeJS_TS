@@ -12,12 +12,16 @@ const thirdway=document.getElementsByClassName("third");
 thirdway[0].onclick=function(){
     alert("My name is prabesh bista");
 }
+thirdway[0].onclick=function(){
+    console.log("My name is Prabesh Bista");
+}
 
 
 
 //4th way of writing the  function
 const fourthWay=document.querySelector("#fourth");
-fourthWay.onclick=()=>{
-    alert("This is the fourt way of writing the function");
-}
 
+
+fourthWay.addEventListener('click',()=>{
+    alert("This is an Event Listener");
+})
