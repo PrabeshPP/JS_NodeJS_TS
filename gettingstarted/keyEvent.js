@@ -8,6 +8,6 @@ function keyUP(){
 
 }
 function keyDown(){
-    return keyPress.innerHTML="Key is Up";
+    return keyPress.innerHTML="Key is down";
 
 }
