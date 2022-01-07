@@ -1,8 +1,8 @@
 let bioData={
-    myname:"Prabesh Bista",
+    myname:{firstName:"Prabesh",lasName:"Bista"},
     myAge:26,
-    getData:function(){
-        console.log(`My name is ${bioData.myname},and my age is ${bioData.myAge}`);
+     getData (){
+        console.log(`My first name is ${this.myname.firstName} and last name ${this.myname.lasName}`)
     }
 
 }
