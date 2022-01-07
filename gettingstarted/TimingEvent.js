@@ -3,3 +3,4 @@
 //There are two keys methods to use with JavaScript are:
 //setTimeOut();
 //setInterval();
+
