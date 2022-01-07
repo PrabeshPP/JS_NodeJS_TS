@@ -6,10 +6,15 @@
 
 const showMyName=document.getElementsByClassName("showMyName");
 const button=document.getElementsByClassName("button");
+const MyTimeOut=setTimeout(()=>{
+    showMyName[0].innerHTML="My name is Prabesh Bista";
+    showMyName[0].getElementsByClassName.color="teal";
+    },3000);
 
 button[0].addEventListener('click',()=>{
-setTimeout(()=>{
-showMyName[0].innerHTML="My name is Prabesh Bista";
-showMyName[0].getElementsByClassName.color="teal";
-},1000);
+MyTimeOut
 });
+
+button[1].addEventListener('click',()=>{
+    clearTimeout(MyTimeOut);
+})
