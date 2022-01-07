@@ -6,15 +6,31 @@
 
 const showMyName=document.getElementsByClassName("showMyName");
 const button=document.getElementsByClassName("button");
-const MyTimeOut=setTimeout(()=>{
-    showMyName[0].innerHTML="My name is Prabesh Bista";
-    showMyName[0].getElementsByClassName.color="teal";
-    },3000);
+const button1=document.getElementsByClassName("button1");
+
+
 
 button[0].addEventListener('click',()=>{
-MyTimeOut
+    setTimeout(()=>{
+        showMyName[0].innerHTML="My name is Prabesh Bista";
+        },3000);
 });
 
-button[1].addEventListener('click',()=>{
-    clearTimeout(MyTimeOut);
+const start=document.getElementsByClassName("start");
+const stop=document.getElementsByClassName("stop");
+const heading=document.getElementsByClassName("timer");
+let timeRef;
+
+start[0].addEventListener('click',()=>{
+    let x=0;
+    timeRef=setInterval(() => {
+        
+        heading[0].innerHTML=`${x}`;
+        ++x;
+        
+    }, 1000);
+});
+stop[0].addEventListener('click',()=>{
+    clearInterval(timeRef);
 })
+
