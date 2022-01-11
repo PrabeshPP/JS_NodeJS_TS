@@ -21,3 +21,17 @@ console.log(Object.values(person));
 
 //It returns the keys and values of the object in a seprate array in JavaScript
 console.log(Object.entries(person));
+
+
+// using spread operator in objects
+
+const person1={
+    myName:"Prabesh Bista",
+    height:171
+
+};
+
+const newPerson={...person1};
+
+console.log(person1);
+console.log(newPerson);
