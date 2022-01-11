@@ -13,8 +13,11 @@ const person={
     age:200
 };
 
-// It gives the values of the object.
+// It gives the values of the object in JavaScript.
 console.log(Object.values(person));
 
-//It gives the key of the object
+//It gives the key of the object in JavaScript
+ console.log(Object.keys(person));
+
+//It returns the keys and values of the object in a seprate array in JavaScript
 console.log(Object.entries(person));
