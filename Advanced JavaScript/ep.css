@@ -5,8 +5,9 @@
    border:20px ;
    border-color: black;
    position: relative;
-   margin: 25px;
+   margin: 50px;
    outline: solid 2px black;
+   cursor: pointer;
 }
 
 .child{
@@ -21,4 +22,5 @@
     border-style: solid;
     border-width: 2px;
     border-color: black;
+    cursor: pointer;
 }
