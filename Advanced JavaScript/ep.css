@@ -1,0 +1,24 @@
+.parent{
+    height: 400px;
+    width: 400px;
+   background-color: brown;
+   border:20px ;
+   border-color: black;
+   position: relative;
+   margin: 25px;
+   outline: solid 2px black;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 50px;
+    border-color: black;
+    position:absolute;
+    margin-left: 38%;
+    margin-top: 36%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
