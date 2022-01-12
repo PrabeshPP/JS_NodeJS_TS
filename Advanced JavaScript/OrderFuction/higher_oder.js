@@ -23,3 +23,4 @@ function Calculator(a,b,operator){
 let finalValue=Calculator(10,2,add);
 
 console.log(finalValue);
+
