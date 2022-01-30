@@ -15,3 +15,4 @@ arr=["Prabesh","Bista","Kathmandu","Pokhara"];
 for( x of arr){
     console.log(x);
 }
+
