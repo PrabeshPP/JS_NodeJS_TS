@@ -1,0 +1,1 @@
+type coffe="black"|"red"|"milk"
