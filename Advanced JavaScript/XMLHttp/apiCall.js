@@ -1,9 +1,9 @@
 let container=document.getElementsByClassName("parent");
 const request=new XMLHttpRequest();
-request.open("GET","https://restcountries.com/v3.1/name/nepal")
+request.open("GET","https://restcountries.com/v3.1/name/united")
 request.send();
 
-request.addEventListener('load',function(){
-    const [data]=JSON.parse(this.responseText);
+request.addEventListener('loadz',function(){
+    this.reponseText;
 
 })
