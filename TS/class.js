@@ -9,3 +9,9 @@ var Person = /** @class */ (function () {
 //if  the objects of the class matches all the varible of the class varibale type ,it will not show any error
 var prabesh = new Person("Prabesh Bista", 20, "White");
 console.log(prabesh.name);
+
+
+arr=["Prabesh","Bista","Kathmandu","Pokhara"];
+for( x of arr){
+    console.log(x);
+}
