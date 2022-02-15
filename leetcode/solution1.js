@@ -1,6 +1,10 @@
 var oddCells = function(m, n, indices) {
-    let arr=[[]];
+    let arr=new Array(m);
+    for(let i=0;i<n;i++){
+        arr[i]=new Array(n);
+    }
     for(let i=0;i<indices.length;i++){
+        
         let row=indices[i][0];
         let col=indices[i][1];
         
@@ -22,6 +26,8 @@ var oddCells = function(m, n, indices) {
             }
         }
     }
+
+    console.log(count);
     
     
 };
