@@ -21,11 +21,11 @@ var oddCells = function(m, n, indices) {
         }
         
     }
-    console.log(arr);
+    
     
     let count=0;
-    for(let i=0;i<arr.length;i++){
-        for(let j=0;j<arr.length;j++){
+    for(let i=0;i<m;i++){
+        for(let j=0;j<n;j++){
             if((arr[i][j])%2!=0){
                 count++;
                 
