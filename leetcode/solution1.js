@@ -1,15 +1,21 @@
 var oddCells = function(m, n, indices) {
-    let arr=new Array(m);
-    for(let i=0;i<n;i++){
-        arr[i]=new Array(n);
+    let arr=Array(m).fill().map(()=>Array(n));
+    for(let i=0;i<m;i++){
+        for(let j=0;j<n;j++){
+            arr[i][j]=0;
+        }
     }
+    console.log(arr);
     for(let i=0;i<indices.length;i++){
         
         let row=indices[i][0];
         let col=indices[i][1];
+       
         
         for(let j=0;j<n;j++){
+            
             arr[row][j]+=1;
+            
         }
         for(let k=0;k<m;k++){
             arr[k][col]+=1;
@@ -27,11 +33,13 @@ var oddCells = function(m, n, indices) {
         }
     }
 
-    console.log(count);
+    
+
+    return count;
     
     
 };
 
 let counter=oddCells(2,3,[[0,1],[1,1]]);
 
-console.log(counter);
+// console.log(counter);
