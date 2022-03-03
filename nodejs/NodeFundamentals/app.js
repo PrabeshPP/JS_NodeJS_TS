@@ -1,4 +1,7 @@
 //
 
 const names=require('./1-module');
-console.log(names);
+const Hello=require('./2-module');
+
+Hello(names.Prabesh);
+Hello(names.Carlo);
