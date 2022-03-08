@@ -29,8 +29,13 @@ const readFilePromisify=util.promisify(fs.readFile);
 //using async-await 
 
 const start=async()=>{
-    const first=await readFilePromisify(filePath,'utf-8');
-    console.log(first);
+    try{
+        const first=await readFilePromisify(filePath,'utf-8');
+        console.log(first);
+    }catch(err){
+        console.log("Hey!provide the correct path.");
+    }
+    
 }
 
 start();
