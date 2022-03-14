@@ -1,11 +1,19 @@
 const http=require("http");
+const path=require("path");
+const fs=require('fs');
+
+const filePath=path.resolve(__dirname,"index.html");
+
+const fileData=fs.readFileSync(filePath);
+
+
 
 const server=http.createServer((req,res)=>{
   const url=req.url
   //HomePage
   if(url==="/home"){
     res.writeHead(200,{"content-type":"text/html"})
-    res.write("<h1>Home Page.</h1>")
+    res.write(fileData)
     res.end()
 
   }
